@@ -1,0 +1,18 @@
+# Ignore everything
+*
+
+
+# But not these files...
+!.gitignore
+!.bashrc
+!.vimrc
+!.gvimrc
+!.bash_profile
+!.conkyrc
+!.xinitrc
+!.gitconfig
+!.gdbinit
+*/
+!.irssi
+!.irssi/config
+
