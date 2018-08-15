@@ -22,7 +22,7 @@ chatnets = {
     type = "IRC";
     sasl_mechanism = "plain";
     sasl_username = "neuroretransmit";
-    sasl_password = "mothershoulditrustthegovernment";
+    sasl_password = "PASSWORD";
   };
   "irc-highway" = { type = "IRC"; };
 };
