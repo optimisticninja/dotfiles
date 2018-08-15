@@ -1,9 +1,10 @@
 # Ignore everything
 *
 
-
 # But not these files...
 !.gitignore
+!.gitconfig
+!.gitattributes
 !.bashrc
 !.vimrc
 !.gvimrc
@@ -12,6 +13,7 @@
 !.xinitrc
 !.gitconfig
 !.gdbinit
+!.tmux.conf
 */
 !.irssi
 !.irssi/config

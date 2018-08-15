@@ -1,3 +1,7 @@
 [user]
 	email = j@optimistic.ninja
 	name = J Ninja
+	
+[filter "pw"]
+	clean = "sed -e 's/sasl_password = \".*\"/sasl_password = \"PASSWORD\"/'"
+
