@@ -16,6 +16,7 @@ call vundle#begin()
 	Plugin 'vim-airline/vim-airline'
 	Plugin 'vim-airline/vim-airline-themes'
 	Plugin 'vim-syntastic/syntastic'
+	Plugin 'ctrlpvim/ctrlp.vim'
 call vundle#end()
 
 filetype plugin indent on
@@ -58,3 +59,11 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+" ctrlp
+let g:ctrlp_root_markers = ['pom.xml', 'build.gradle', 'Makefile', 'requirements.txt', 'cargo.toml']
+let g:ctrlp_custom_ignore = {
+			\ 'dotdir': '\v[\/]\.(git|hg|svn)$',
+			\ 'dir': '\v(obj|bin|build|target)$',
+			\ 'file': '\v\.(exe|so|dll|o)$',
+			\ }
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip,*.tar,*.tar.gz
