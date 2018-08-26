@@ -17,4 +17,8 @@
 */
 !.irssi
 !.irssi/config
-
+!.vim
+!.vim/bundle
+!.vim/bundle/YCM-Generator
+!.vim/bundle/YCM-Generator/template.py
+.vim/bundle/YCM-Generator/.gitignore

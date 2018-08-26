@@ -1,1 +1,1 @@
-set guifont=Ubuntu\ Mono\ 10
+set guifont=DejaVu\ Sans\ Mono\ 10
